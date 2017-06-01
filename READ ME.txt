@@ -1,0 +1,16 @@
+
+This is a java project as part of practice problems. The package contained all the files needed.
+
+Summary:
+	The positions were stored in a tree data structure due to there being a hierarchy. Each position contains a getDirectReports Set. This set contained all the positions(children) 
+	of current position. In order to implement the Hire function, I needed to search through the tree. I created a preorder depth first search algorithm to do this. 
+	Once the position was found and not full, then I created a New Employee and assigned it to that position.  
+
+  	Changes:
+	Only Organization.java received new code
+	Created a SearchForPositin() to check if the position exists and is open
+	Created and ID for each employee
+	Created a new Employee in the Hire() 
+	Set the the new Employee to the open position
+	 
+	
